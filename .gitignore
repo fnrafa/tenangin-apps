@@ -1,0 +1,27 @@
+
+---
+
+### **`.gitignore`**
+
+```plaintext
+# Proyek Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+
+# Direktori Build
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# File Konfigurasi Lokal
+local.properties
+
+# Keystore
+keystore_rafa.jks
+
+# Direktori Release APK
+/app/release
